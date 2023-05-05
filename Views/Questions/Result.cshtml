@@ -1,0 +1,17 @@
+<h1 style="color: black; background-color: yellow; text-align: center; margin-top: 40px;">Result</h1>
+<br>
+<p style="margin-left: 350px; color: blue; font-size: 20px"><strong>Ticket : @(ViewBag.TicketIndex+1)</strong></p> 
+<p style="margin-left: 450px; color: green; font-size: 40px"><strong>Correct : @ViewBag.Correctcount</strong></p>
+<p style="margin-left: 550px; color: rgb(202, 8, 8); font-size: 30px"><strong>Incorrect : @(10-ViewBag.Correctcount)</strong></p>
+<p style="margin-left: 650px; color: rgb(73, 155, 180); font-size: 20px"><strong>Questions : 10</strong></p>
+<div style="display: flex">
+  <label style="margin: 0; display: flex; font-size: 20px; color: white;">This test result:</label>
+  <div class="progress" style="margin-top: 10px; height: 50px; margin-bottom: 30px; margin-right: 100px; margin-left: 10px; width:80%; background-color: rgb(206, 122, 122)"> 
+    <div class="progress-bar row -- bs-gutter-x: 0rem" role="progressbar" aria-label="Example with label" style="width: @(ViewBag.Correctcount*10+2)%;" aria-valuenow="@ViewBag.Correctcount" aria-valuemin="0" aria-valuemax="10">@(ViewBag.Correctcount*10) %</div>
+  </div>
+</div>
+
+
+<form asp-controller="Tickets" asp-action="Tickets" style="text-align: center;">
+    <button class="btn btn-primary" type="submit" >Continue...</button>
+</form>

@@ -1,0 +1,58 @@
+@using AspControler.Services;
+@{
+  var userid = Context.Request.Cookies["UserId"];
+  var h = UserService._ticketRepository.GetHistory(userid!);
+}
+<div style="">
+<h1 style="color: rgb(248, 151, 6); text-align: center;">History</h1>
+<a class="btn btn-danger" type="button" asp-controller="History" asp-action="Clear" style="position: fixed; margin-left:  70%">Clear history</a>
+</div>
+        <table class="table" style="color: white;">
+            <thead>
+              <tr>
+                <th scope="col">Ticket</th>
+                <th scope="col">Corrects</th>
+                <th scope="col">InCorrects</th>
+                <th scope="col">Questions</th>
+                <th scope="col">Completed time</th>
+              </tr>
+            </thead>
+            <tbody>
+             
+              @{
+              for(int i=0; i<h.Count; i++)
+              {
+              var index = h[i].TicketIndex;
+              var correct = h[i].CorrectCount;
+              var incorrect = 10 - correct;
+              var date = h[i].Vaqti;
+                  <tr>
+                    <th scope="row">@(index+1)</th>
+                    <td>@correct</td>
+                    <td>@incorrect</td>
+                    <td>10 (@(index*10+1)-@(index*10+10))</td>
+                    <td>@date</td>
+                  </tr>
+               }}
+                         </tbody>
+                     </table>
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

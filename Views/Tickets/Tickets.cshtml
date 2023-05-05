@@ -1,0 +1,134 @@
+@using AspControler.Services;
+@using System.Linq;
+@using System.ComponentModel.DataAnnotations;
+@{
+    ViewData["Title"] = "Tickets";
+    List<QuestionModel> questions;
+    questions = ViewBag.Questionss; 
+}
+<h1 style="text-align: center; color: rgb(94, 255, 0); maargin-top: 100px">Tickets</h1>
+
+<p style="text-align: center; color: white;">Eslatib o'tamiz, iltimos qaysidir ticketni boshlasangiz albatta tugating, yo'qsa xatoliklar kelib chiqishi mumkin. Buning uchun uzur so'raymiz! Tushunganingiz uchun rahmat.</p>
+
+<li class="nav-it" style="width: 20%; margin-left: 80%; margin-right: %">
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdo">
+       <div class="btn-group" role="group">
+         <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Select Language
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" asp-controller="Users" asp-action="SelectLanguage" asp-route-language="uz"  >O'zbek</a></li>
+          <li><a class="dropdown-item" asp-controller="Users" asp-action="SelectLanguage" asp-route-language="krl" >Kiril</a></li>
+          <li><a class="dropdown-item" asp-controller="Users" asp-action="SelectLanguage" asp-route-language="ru"  >Русский</a></li>
+         </ul>
+        </div>
+    </div>
+    <a type="button" class="btn btn-warning"
+        asp-controller="History" asp-action="History">
+        History
+    </a>
+</li>
+
+
+@{ var sum = 0;
+int sana = 0;
+    var userid = Context.Request.Cookies["UserId"];
+
+    var results = UserService._ticketRepository.GetResults(userid);
+  for(int i=0; i<70; i++)
+  {
+    var result = results.FirstOrDefault(u=>u.TicketIndex == i);
+    sum += result.CorrectCount;
+    if(result.CorrectCount == 10)
+    {
+      sana ++;
+    }
+  }
+}
+<div>
+<label style="color:white;">Corrects</label>
+<div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="@sum" aria-valuemin="0" aria-valuemax="700">
+  <div class="progress-bar bg-success" style="width: @(sum/7)%">@(sum/7)%</div>
+</div></div>
+<div>
+<label style="color:white;">Incorrects</label>
+<div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="@(700-sum)" aria-valuemin="0" aria-valuemax="700">
+  <div class="progress-bar bg-info text-dark" style="width: @((700-sum)/7)%">@((700-sum)/7)%</div>
+</div></div>
+<div style="margin-bottom: 20px;">
+<label style="color:white;">Finished tickets</label>
+<div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="@sana" aria-valuemin="0" aria-valuemax="70">
+  <div class="progress-bar bg-warning text-dark" style="width: @((sana*10)/7)%">@((sana*10)/7)%</div>
+</div></div>
+
+
+@{
+    var page = ViewBag.IdPage;
+}  
+    <div class="col-md-12 d-flex justify-content-center" style="flex-wrap: wrap;">
+        {
+            @for (int i = page*10; i < page*10+10; i++)
+            {
+                string kim = "";
+                var corrects = UserService._ticketRepository.GetResults(userid);
+                var correct = corrects.FirstOrDefault(u=>u.TicketIndex == i);
+                int cor = correct.CorrectCount;
+                    
+                if(correct.CorrectCount == 10) kim = "rgb(126, 245, 126);";
+                if(correct.CorrectCount < 10 && correct.CorrectCount > 5) kim = "rgb(223, 223, 58);";
+                if(correct.CorrectCount > 0 && correct.CorrectCount <= 5) kim = " rgb(189, 115, 115);";
+                
+                var atts = UserService._ticketRepository.GetUrinishs(userid);
+                var att = atts.FirstOrDefault(u=>u.TicketIndex == i);
+                int at = att.Attempts;
+                <div style="color: rgb(223, 223, 58);"></div>
+                <div class="card d-flex justify-content-center" style="width: 18%; border-color: green; margin: 2px;">
+                    <img src="/tic.jpg" class="card-img-top" alt="..." style="height: 100px;">
+                    <div class="card-body" style="margin-right: 5px height: 2px; background-color: @kim">
+                        <h5 class="card-title" style="color: red; font-family: Arial, Helvetica, sans-serif">Ticket @(i+1)</h5>
+                        <p class="card-text" style="color: blue; margin: 0">Last result: @cor/10</p>
+                        <p class="card-text" style="color: rgb(0, 238, 255); margin: 0"><strong>Attempts: @at</strong></p>
+                        <p class="card-text" style="color: green; margin: 0">Questions: 10 (@(i*10+1)-@(i*10+10))</p>
+                        <div>
+                            <a class="btn btn-primary" 
+                            asp-controller="Questions" 
+                            asp-action="GetQuestionByIndex" 
+                            asp-route-id="@(i*10+1)" 
+                            asp-route-ticketIndex="@i" asp-route-attemps="true">Start</a>
+                            @if(at>0)
+                            {
+                                <a class="btn btn-primary" asp-controller="Questions" 
+                                asp-action="GetQuestionByIndex" 
+                                asp-route-id="@(i*10+1)" 
+                                asp-route-ticketIndex="@i" asp-route-restart="true" asp-route-attemps="true">Restart</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+    <nav class="d-flex justify-content-center" aria-label="Page navigation example" style="width: 60%; margin-top: 30px; margin-left: 20%; margin-right: 20%;">
+        <ul class="pagination" style="">
+            @if(page > 0)
+            {
+                <li class="page-item"><a class="page-link" asp-controller="Tickets" 
+                asp-action="Tickets" 
+                asp-route-page="@(page-1)">Previous</a></li>
+            }
+            @for (int i = 0; i < ViewBag.TicketsCount/10; i++)
+            {
+                <li class="page-item"><a class="page-link" asp-controller="Tickets" 
+                asp-action="Tickets" 
+                asp-route-page="@i">@(i+1)</a></li>
+            }
+            @if(page < ViewBag.TicketsCount/10-1)
+            {
+                <li class="page-item"><a class="page-link" asp-controller="Tickets" 
+                asp-action="Tickets" 
+                asp-route-page="@(page+1)">Next</a></li>
+            }
+           
+        </ul>
+    </nav>

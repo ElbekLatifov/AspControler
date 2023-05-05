@@ -1,0 +1,105 @@
+﻿@using AspControler.Services;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AspControler</title>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AspControler.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header >
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="; margin-top: 0; ">
+            <div class="container-fluid" style="background-color: red; height:70px;">
+                <a class="navbar-brand btn-dark" type="button" asp-area="" asp-controller="Users" asp-action="Profile" style="color: white; padding: 5px 10px; border-radius: 10px; margin-bottom: 1px">Profile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1" style="margin-right: 10px;">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark btn-warning" asp-area="" asp-controller="Home" asp-action="Index" style="border-radius: 5px; margin-right: 10px">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark btn-warning" asp-area="" asp-controller="Home" asp-action="Privacy" style="border-radius: 5px; margin-right: 10px">Privacy</a>
+                        </li>
+                        @{
+                            if(UserService.IsLoggedIn(Context))
+                            {
+                                <li class="nav-item" style="margin-right: 20px;">
+                                    <a class="nav-link text-dark btn-warning" asp-area="" asp-controller="Tickets" asp-action="Tickets" style="border-radius: 5px;">Tickets</a>
+                                </li>
+                                <li style="margin-left: 10px; position: absolute; right: 180px;">
+                                    <form class="d-flex" role="search" asp-controller="Tickets" asp-action="Search" method="get">
+                                        <input class="form-control me-2" type="search" style="padding-right: 0;" placeholder="Search ticket number" aria-label="Search" name="ticketNumber">
+                                        <button class="btn btn-outline-success" type="submit" >Search</button>
+                                    </form>
+                                </li>
+                                <li style="margin-left: 60%; position: absolute; right: 480px;">
+                                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Color
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Dark</a></li>
+                                          <li><a class="dropdown-item" href="#">Light</a></li>
+                                          <li><a class="dropdown-item" href="#">Auto</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            }
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark btn-secondary" asp-area="" asp-controller="Users" asp-action="SignUp" style="text-align: right; border: 2px; position: absolute; right: 10px; border-radius:10px;">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark btn-secondary" asp-area="" asp-controller="Users" asp-action="SignIn" style="text-align: right; border: 2px; position: absolute; right: 100px; border-radius:10px;">Sign In</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            @RenderBody()
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - AspControler - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

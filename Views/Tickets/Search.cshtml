@@ -1,0 +1,52 @@
+@using AspControler.Services;
+@using System.Linq;
+
+<h1 style="text-align: center; color: rgb(94, 255, 0);">Search results</h1>
+<h1 style="text-align: center; color: rgb(94, 255, 0)">Tickets</h1>
+
+<p style="text-align: center; color: white;">Eslatib o'tamiz, iltimos qaysidir ticketni boshlasangiz albatta tugating,
+     yo'qsa xatoliklar kelib chiqishi mumkin. Buning uchun uzur so'raymiz! Tushunganingiz uchun rahmat.</p>
+
+@{
+    var userid = Context.Request.Cookies["UserId"];
+    var ticket = ViewBag.Number;
+    var tickets = ViewBag.TicketsSoni;
+
+    for (int i = 0; i < tickets; i++)
+    {
+        var corrects = UserService._ticketRepository.GetResults(userid);
+        var correct = corrects.FirstOrDefault(u=>u.TicketIndex == i);
+        int cor = correct.CorrectCount;
+        var atts = UserService._ticketRepository.GetUrinishs(userid);
+        var att = atts.FirstOrDefault(u=>u.TicketIndex == i);
+        int at = att.Attempts;
+
+        if(i == ticket-1)
+        {
+            <div class="card d-flex justify-content-center" style="width: 18%; border-color: green">
+            <img src="/ticket.jpg" class="card-img-top" alt="..." style="height: 100px;">
+            <div class="card-body" style="margin-right: 5px height: 2px">
+                <h5 class="card-title" style="color: red; font-family: Arial, Helvetica, sans-serif">Ticket @(i+1)</h5>
+                <p class="card-text" style="color: blue; margin: 0">Last result: @cor/10</p>
+                <p class="card-text" style="color: rgb(0, 238, 255); margin: 0">Attempts: @at</p>
+                <p class="card-text" style="color: green; margin: 0">Questions: 10 (@(i*10+1)-@(i*10+10))</p>
+                <div>
+                    <a class="btn btn-primary" 
+                    asp-controller="Questions" 
+                    asp-action="GetQuestionByIndex" 
+                    asp-route-id="@(i*10+1)" 
+                    asp-route-ticketIndex="@i" asp-route-attemps="true">Start</a>
+                    @if(at>0)
+                    {
+                        <a class="btn btn-primary" asp-controller="Questions" 
+                        asp-action="GetQuestionByIndex" 
+                        asp-route-id="@(i*10+1)" 
+                        asp-route-ticketIndex="@i" asp-route-restart="true" asp-route-attemps="true">Restart</a>
+                    }
+                </div>    
+                </div>
+            </div>
+        }      
+        
+    }
+}

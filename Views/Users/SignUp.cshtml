@@ -1,0 +1,30 @@
+@model CopyUser
+<h4 style="text-align: center; text-decoration: underline; color: rgb(0, 255, 17);"><strong>Registration</strong></h4>
+
+    <form class="row g-3" id="index" style="text-align: center; border: 5px; width: 50%; border-radius:20px; margin-left: 25%; margin-right:25%;" asp-controller="Users" asp-action="SignUp" enctype="multipart/form-data">
+        <div>
+            <input name ="UserName" placeholder="Your name" type="text" class="form-control">
+            <span asp-validation-for="UserName" style="color: red;"></span>
+        </div>
+       <div>
+            <input name ="Password" placeholder="Password" type="password" class="form-control">
+            <span asp-validation-for="Password" style="color: red;"></span>
+        </div>
+        <div>
+             <input name ="Email" placeholder="Email" type="email" class="form-control">
+            <span asp-validation-for="Email" style="color: red;"></span>
+        </div>
+        <div>
+            <input name ="Phone" placeholder="Phone Number" type="text" class="form-control">
+            <span asp-validation-for="Phone" style="color: red;"></span>
+        </div>
+        <div>
+            <label style="color: white; margin-left: 0%">Profil rasmini tanlang:</label>
+            <input name ="UserPhotos" type="file" class="form-control">
+            <span asp-validation-for="UserPhotos" style="color: red;"></span>
+        </div>
+        
+        <button type="submit" class="btn btn-success mb-3">Sign Up</button>
+    </form>
+<br>
+<a asp-controller="Users" asp-action="SignIn" style="text-align: center;">Sign In</a>

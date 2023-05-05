@@ -1,0 +1,1885 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\AspControler\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\AspControler.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AspControler.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\1.png",
+      "PackagePath": "staticwebassets\\Autotest\\1.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\10.png",
+      "PackagePath": "staticwebassets\\Autotest\\10.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\101.png",
+      "PackagePath": "staticwebassets\\Autotest\\101.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\102.png",
+      "PackagePath": "staticwebassets\\Autotest\\102.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\103.png",
+      "PackagePath": "staticwebassets\\Autotest\\103.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\104.png",
+      "PackagePath": "staticwebassets\\Autotest\\104.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\105.png",
+      "PackagePath": "staticwebassets\\Autotest\\105.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\113.png",
+      "PackagePath": "staticwebassets\\Autotest\\113.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\115.png",
+      "PackagePath": "staticwebassets\\Autotest\\115.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\117.png",
+      "PackagePath": "staticwebassets\\Autotest\\117.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\12.png",
+      "PackagePath": "staticwebassets\\Autotest\\12.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\121.png",
+      "PackagePath": "staticwebassets\\Autotest\\121.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\122.png",
+      "PackagePath": "staticwebassets\\Autotest\\122.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\123.png",
+      "PackagePath": "staticwebassets\\Autotest\\123.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\125.png",
+      "PackagePath": "staticwebassets\\Autotest\\125.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\126.png",
+      "PackagePath": "staticwebassets\\Autotest\\126.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\127.png",
+      "PackagePath": "staticwebassets\\Autotest\\127.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\13.png",
+      "PackagePath": "staticwebassets\\Autotest\\13.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\132.png",
+      "PackagePath": "staticwebassets\\Autotest\\132.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\133.png",
+      "PackagePath": "staticwebassets\\Autotest\\133.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\134.png",
+      "PackagePath": "staticwebassets\\Autotest\\134.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\135.png",
+      "PackagePath": "staticwebassets\\Autotest\\135.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\136.png",
+      "PackagePath": "staticwebassets\\Autotest\\136.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\140.png",
+      "PackagePath": "staticwebassets\\Autotest\\140.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\141.png",
+      "PackagePath": "staticwebassets\\Autotest\\141.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\142.png",
+      "PackagePath": "staticwebassets\\Autotest\\142.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\143.png",
+      "PackagePath": "staticwebassets\\Autotest\\143.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\144.png",
+      "PackagePath": "staticwebassets\\Autotest\\144.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\145.png",
+      "PackagePath": "staticwebassets\\Autotest\\145.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\147.png",
+      "PackagePath": "staticwebassets\\Autotest\\147.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\15.png",
+      "PackagePath": "staticwebassets\\Autotest\\15.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\152.png",
+      "PackagePath": "staticwebassets\\Autotest\\152.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\153.png",
+      "PackagePath": "staticwebassets\\Autotest\\153.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\155.png",
+      "PackagePath": "staticwebassets\\Autotest\\155.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\156.png",
+      "PackagePath": "staticwebassets\\Autotest\\156.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\16.png",
+      "PackagePath": "staticwebassets\\Autotest\\16.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\161.png",
+      "PackagePath": "staticwebassets\\Autotest\\161.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\162.png",
+      "PackagePath": "staticwebassets\\Autotest\\162.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\163.png",
+      "PackagePath": "staticwebassets\\Autotest\\163.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\164.png",
+      "PackagePath": "staticwebassets\\Autotest\\164.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\165.png",
+      "PackagePath": "staticwebassets\\Autotest\\165.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\169.png",
+      "PackagePath": "staticwebassets\\Autotest\\169.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\172.png",
+      "PackagePath": "staticwebassets\\Autotest\\172.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\173.png",
+      "PackagePath": "staticwebassets\\Autotest\\173.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\175.png",
+      "PackagePath": "staticwebassets\\Autotest\\175.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\178.png",
+      "PackagePath": "staticwebassets\\Autotest\\178.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\182.png",
+      "PackagePath": "staticwebassets\\Autotest\\182.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\183.png",
+      "PackagePath": "staticwebassets\\Autotest\\183.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\184.png",
+      "PackagePath": "staticwebassets\\Autotest\\184.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\185.png",
+      "PackagePath": "staticwebassets\\Autotest\\185.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\186.png",
+      "PackagePath": "staticwebassets\\Autotest\\186.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\191.png",
+      "PackagePath": "staticwebassets\\Autotest\\191.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\192.png",
+      "PackagePath": "staticwebassets\\Autotest\\192.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\193.png",
+      "PackagePath": "staticwebassets\\Autotest\\193.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\195.png",
+      "PackagePath": "staticwebassets\\Autotest\\195.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\196.png",
+      "PackagePath": "staticwebassets\\Autotest\\196.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\198.png",
+      "PackagePath": "staticwebassets\\Autotest\\198.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\2.png",
+      "PackagePath": "staticwebassets\\Autotest\\2.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\202.png",
+      "PackagePath": "staticwebassets\\Autotest\\202.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\203.png",
+      "PackagePath": "staticwebassets\\Autotest\\203.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\204.png",
+      "PackagePath": "staticwebassets\\Autotest\\204.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\205.png",
+      "PackagePath": "staticwebassets\\Autotest\\205.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\207.png",
+      "PackagePath": "staticwebassets\\Autotest\\207.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\208.png",
+      "PackagePath": "staticwebassets\\Autotest\\208.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\211.png",
+      "PackagePath": "staticwebassets\\Autotest\\211.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\212.png",
+      "PackagePath": "staticwebassets\\Autotest\\212.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\213.png",
+      "PackagePath": "staticwebassets\\Autotest\\213.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\214.png",
+      "PackagePath": "staticwebassets\\Autotest\\214.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\215.png",
+      "PackagePath": "staticwebassets\\Autotest\\215.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\216.png",
+      "PackagePath": "staticwebassets\\Autotest\\216.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\22.png",
+      "PackagePath": "staticwebassets\\Autotest\\22.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\223.png",
+      "PackagePath": "staticwebassets\\Autotest\\223.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\224.png",
+      "PackagePath": "staticwebassets\\Autotest\\224.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\225.png",
+      "PackagePath": "staticwebassets\\Autotest\\225.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\226.png",
+      "PackagePath": "staticwebassets\\Autotest\\226.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\227.png",
+      "PackagePath": "staticwebassets\\Autotest\\227.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\228.png",
+      "PackagePath": "staticwebassets\\Autotest\\228.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\23.png",
+      "PackagePath": "staticwebassets\\Autotest\\23.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\231.png",
+      "PackagePath": "staticwebassets\\Autotest\\231.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\232.png",
+      "PackagePath": "staticwebassets\\Autotest\\232.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\233.png",
+      "PackagePath": "staticwebassets\\Autotest\\233.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\235.png",
+      "PackagePath": "staticwebassets\\Autotest\\235.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\236.png",
+      "PackagePath": "staticwebassets\\Autotest\\236.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\237.png",
+      "PackagePath": "staticwebassets\\Autotest\\237.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\24.png",
+      "PackagePath": "staticwebassets\\Autotest\\24.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\242.png",
+      "PackagePath": "staticwebassets\\Autotest\\242.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\243.png",
+      "PackagePath": "staticwebassets\\Autotest\\243.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\244.png",
+      "PackagePath": "staticwebassets\\Autotest\\244.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\245.png",
+      "PackagePath": "staticwebassets\\Autotest\\245.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\247.png",
+      "PackagePath": "staticwebassets\\Autotest\\247.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\248.png",
+      "PackagePath": "staticwebassets\\Autotest\\248.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\25.png",
+      "PackagePath": "staticwebassets\\Autotest\\25.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\252.png",
+      "PackagePath": "staticwebassets\\Autotest\\252.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\253.png",
+      "PackagePath": "staticwebassets\\Autotest\\253.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\255.png",
+      "PackagePath": "staticwebassets\\Autotest\\255.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\256.png",
+      "PackagePath": "staticwebassets\\Autotest\\256.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\26.png",
+      "PackagePath": "staticwebassets\\Autotest\\26.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\262.png",
+      "PackagePath": "staticwebassets\\Autotest\\262.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\263.png",
+      "PackagePath": "staticwebassets\\Autotest\\263.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\264.png",
+      "PackagePath": "staticwebassets\\Autotest\\264.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\265.png",
+      "PackagePath": "staticwebassets\\Autotest\\265.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\268.png",
+      "PackagePath": "staticwebassets\\Autotest\\268.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\271.png",
+      "PackagePath": "staticwebassets\\Autotest\\271.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\272.png",
+      "PackagePath": "staticwebassets\\Autotest\\272.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\273.png",
+      "PackagePath": "staticwebassets\\Autotest\\273.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\274.png",
+      "PackagePath": "staticwebassets\\Autotest\\274.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\275.png",
+      "PackagePath": "staticwebassets\\Autotest\\275.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\277.png",
+      "PackagePath": "staticwebassets\\Autotest\\277.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\282.png",
+      "PackagePath": "staticwebassets\\Autotest\\282.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\283.png",
+      "PackagePath": "staticwebassets\\Autotest\\283.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\285.png",
+      "PackagePath": "staticwebassets\\Autotest\\285.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\288.png",
+      "PackagePath": "staticwebassets\\Autotest\\288.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\289.png",
+      "PackagePath": "staticwebassets\\Autotest\\289.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\291.png",
+      "PackagePath": "staticwebassets\\Autotest\\291.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\292.png",
+      "PackagePath": "staticwebassets\\Autotest\\292.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\293.png",
+      "PackagePath": "staticwebassets\\Autotest\\293.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\294.png",
+      "PackagePath": "staticwebassets\\Autotest\\294.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\295.png",
+      "PackagePath": "staticwebassets\\Autotest\\295.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\296.png",
+      "PackagePath": "staticwebassets\\Autotest\\296.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\297.png",
+      "PackagePath": "staticwebassets\\Autotest\\297.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\298.png",
+      "PackagePath": "staticwebassets\\Autotest\\298.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\300.png",
+      "PackagePath": "staticwebassets\\Autotest\\300.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\301.png",
+      "PackagePath": "staticwebassets\\Autotest\\301.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\302.png",
+      "PackagePath": "staticwebassets\\Autotest\\302.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\303.png",
+      "PackagePath": "staticwebassets\\Autotest\\303.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\305.png",
+      "PackagePath": "staticwebassets\\Autotest\\305.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\306.png",
+      "PackagePath": "staticwebassets\\Autotest\\306.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\308.png",
+      "PackagePath": "staticwebassets\\Autotest\\308.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\31.png",
+      "PackagePath": "staticwebassets\\Autotest\\31.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\312.png",
+      "PackagePath": "staticwebassets\\Autotest\\312.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\313.png",
+      "PackagePath": "staticwebassets\\Autotest\\313.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\314.png",
+      "PackagePath": "staticwebassets\\Autotest\\314.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\315.png",
+      "PackagePath": "staticwebassets\\Autotest\\315.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\316.png",
+      "PackagePath": "staticwebassets\\Autotest\\316.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\318.png",
+      "PackagePath": "staticwebassets\\Autotest\\318.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\32.png",
+      "PackagePath": "staticwebassets\\Autotest\\32.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\322.png",
+      "PackagePath": "staticwebassets\\Autotest\\322.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\323.png",
+      "PackagePath": "staticwebassets\\Autotest\\323.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\324.png",
+      "PackagePath": "staticwebassets\\Autotest\\324.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\325.png",
+      "PackagePath": "staticwebassets\\Autotest\\325.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\326.png",
+      "PackagePath": "staticwebassets\\Autotest\\326.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\33.png",
+      "PackagePath": "staticwebassets\\Autotest\\33.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\331.png",
+      "PackagePath": "staticwebassets\\Autotest\\331.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\332.png",
+      "PackagePath": "staticwebassets\\Autotest\\332.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\333.png",
+      "PackagePath": "staticwebassets\\Autotest\\333.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\334.png",
+      "PackagePath": "staticwebassets\\Autotest\\334.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\335.png",
+      "PackagePath": "staticwebassets\\Autotest\\335.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\336.png",
+      "PackagePath": "staticwebassets\\Autotest\\336.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\34.png",
+      "PackagePath": "staticwebassets\\Autotest\\34.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\342.png",
+      "PackagePath": "staticwebassets\\Autotest\\342.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\343.png",
+      "PackagePath": "staticwebassets\\Autotest\\343.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\345.png",
+      "PackagePath": "staticwebassets\\Autotest\\345.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\348.png",
+      "PackagePath": "staticwebassets\\Autotest\\348.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\35.png",
+      "PackagePath": "staticwebassets\\Autotest\\35.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\352.png",
+      "PackagePath": "staticwebassets\\Autotest\\352.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\353.png",
+      "PackagePath": "staticwebassets\\Autotest\\353.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\354.png",
+      "PackagePath": "staticwebassets\\Autotest\\354.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\355.png",
+      "PackagePath": "staticwebassets\\Autotest\\355.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\358.png",
+      "PackagePath": "staticwebassets\\Autotest\\358.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\36.png",
+      "PackagePath": "staticwebassets\\Autotest\\36.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\360.png",
+      "PackagePath": "staticwebassets\\Autotest\\360.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\362.png",
+      "PackagePath": "staticwebassets\\Autotest\\362.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\363.png",
+      "PackagePath": "staticwebassets\\Autotest\\363.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\365.png",
+      "PackagePath": "staticwebassets\\Autotest\\365.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\367.png",
+      "PackagePath": "staticwebassets\\Autotest\\367.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\368.png",
+      "PackagePath": "staticwebassets\\Autotest\\368.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\372.png",
+      "PackagePath": "staticwebassets\\Autotest\\372.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\373.png",
+      "PackagePath": "staticwebassets\\Autotest\\373.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\374.png",
+      "PackagePath": "staticwebassets\\Autotest\\374.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\375.png",
+      "PackagePath": "staticwebassets\\Autotest\\375.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\377.png",
+      "PackagePath": "staticwebassets\\Autotest\\377.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\378.png",
+      "PackagePath": "staticwebassets\\Autotest\\378.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\380.png",
+      "PackagePath": "staticwebassets\\Autotest\\380.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\382.png",
+      "PackagePath": "staticwebassets\\Autotest\\382.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\383.png",
+      "PackagePath": "staticwebassets\\Autotest\\383.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\384.png",
+      "PackagePath": "staticwebassets\\Autotest\\384.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\385.png",
+      "PackagePath": "staticwebassets\\Autotest\\385.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\387.png",
+      "PackagePath": "staticwebassets\\Autotest\\387.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\388.png",
+      "PackagePath": "staticwebassets\\Autotest\\388.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\390.png",
+      "PackagePath": "staticwebassets\\Autotest\\390.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\391.png",
+      "PackagePath": "staticwebassets\\Autotest\\391.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\392.png",
+      "PackagePath": "staticwebassets\\Autotest\\392.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\394.png",
+      "PackagePath": "staticwebassets\\Autotest\\394.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\395.png",
+      "PackagePath": "staticwebassets\\Autotest\\395.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\397.png",
+      "PackagePath": "staticwebassets\\Autotest\\397.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\4.png",
+      "PackagePath": "staticwebassets\\Autotest\\4.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\400.png",
+      "PackagePath": "staticwebassets\\Autotest\\400.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\401.png",
+      "PackagePath": "staticwebassets\\Autotest\\401.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\402.png",
+      "PackagePath": "staticwebassets\\Autotest\\402.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\403.png",
+      "PackagePath": "staticwebassets\\Autotest\\403.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\404.png",
+      "PackagePath": "staticwebassets\\Autotest\\404.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\405.png",
+      "PackagePath": "staticwebassets\\Autotest\\405.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\408.png",
+      "PackagePath": "staticwebassets\\Autotest\\408.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\412.png",
+      "PackagePath": "staticwebassets\\Autotest\\412.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\413.png",
+      "PackagePath": "staticwebassets\\Autotest\\413.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\414.png",
+      "PackagePath": "staticwebassets\\Autotest\\414.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\415.png",
+      "PackagePath": "staticwebassets\\Autotest\\415.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\416.png",
+      "PackagePath": "staticwebassets\\Autotest\\416.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\42.png",
+      "PackagePath": "staticwebassets\\Autotest\\42.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\420.png",
+      "PackagePath": "staticwebassets\\Autotest\\420.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\421.png",
+      "PackagePath": "staticwebassets\\Autotest\\421.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\422.png",
+      "PackagePath": "staticwebassets\\Autotest\\422.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\424.png",
+      "PackagePath": "staticwebassets\\Autotest\\424.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\425.png",
+      "PackagePath": "staticwebassets\\Autotest\\425.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\426.png",
+      "PackagePath": "staticwebassets\\Autotest\\426.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\427.png",
+      "PackagePath": "staticwebassets\\Autotest\\427.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\43.png",
+      "PackagePath": "staticwebassets\\Autotest\\43.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\432.png",
+      "PackagePath": "staticwebassets\\Autotest\\432.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\433.png",
+      "PackagePath": "staticwebassets\\Autotest\\433.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\435.png",
+      "PackagePath": "staticwebassets\\Autotest\\435.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\436.png",
+      "PackagePath": "staticwebassets\\Autotest\\436.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\437.png",
+      "PackagePath": "staticwebassets\\Autotest\\437.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\439.png",
+      "PackagePath": "staticwebassets\\Autotest\\439.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\44.png",
+      "PackagePath": "staticwebassets\\Autotest\\44.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\440.png",
+      "PackagePath": "staticwebassets\\Autotest\\440.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\441.png",
+      "PackagePath": "staticwebassets\\Autotest\\441.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\442.png",
+      "PackagePath": "staticwebassets\\Autotest\\442.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\443.png",
+      "PackagePath": "staticwebassets\\Autotest\\443.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\445.png",
+      "PackagePath": "staticwebassets\\Autotest\\445.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\446.png",
+      "PackagePath": "staticwebassets\\Autotest\\446.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\449.png",
+      "PackagePath": "staticwebassets\\Autotest\\449.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\45.png",
+      "PackagePath": "staticwebassets\\Autotest\\45.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\452.png",
+      "PackagePath": "staticwebassets\\Autotest\\452.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\453.png",
+      "PackagePath": "staticwebassets\\Autotest\\453.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\454.png",
+      "PackagePath": "staticwebassets\\Autotest\\454.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\455.png",
+      "PackagePath": "staticwebassets\\Autotest\\455.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\456.png",
+      "PackagePath": "staticwebassets\\Autotest\\456.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\46.png",
+      "PackagePath": "staticwebassets\\Autotest\\46.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\462.png",
+      "PackagePath": "staticwebassets\\Autotest\\462.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\463.png",
+      "PackagePath": "staticwebassets\\Autotest\\463.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\465.png",
+      "PackagePath": "staticwebassets\\Autotest\\465.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\466.png",
+      "PackagePath": "staticwebassets\\Autotest\\466.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\467.png",
+      "PackagePath": "staticwebassets\\Autotest\\467.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\468.png",
+      "PackagePath": "staticwebassets\\Autotest\\468.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\471.png",
+      "PackagePath": "staticwebassets\\Autotest\\471.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\472.png",
+      "PackagePath": "staticwebassets\\Autotest\\472.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\473.png",
+      "PackagePath": "staticwebassets\\Autotest\\473.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\475.png",
+      "PackagePath": "staticwebassets\\Autotest\\475.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\476.png",
+      "PackagePath": "staticwebassets\\Autotest\\476.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\479.png",
+      "PackagePath": "staticwebassets\\Autotest\\479.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\480.png",
+      "PackagePath": "staticwebassets\\Autotest\\480.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\481.png",
+      "PackagePath": "staticwebassets\\Autotest\\481.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\482.png",
+      "PackagePath": "staticwebassets\\Autotest\\482.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\483.png",
+      "PackagePath": "staticwebassets\\Autotest\\483.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\484.png",
+      "PackagePath": "staticwebassets\\Autotest\\484.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\485.png",
+      "PackagePath": "staticwebassets\\Autotest\\485.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\486.png",
+      "PackagePath": "staticwebassets\\Autotest\\486.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\487.png",
+      "PackagePath": "staticwebassets\\Autotest\\487.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\491.png",
+      "PackagePath": "staticwebassets\\Autotest\\491.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\492.png",
+      "PackagePath": "staticwebassets\\Autotest\\492.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\493.png",
+      "PackagePath": "staticwebassets\\Autotest\\493.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\494.png",
+      "PackagePath": "staticwebassets\\Autotest\\494.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\495.png",
+      "PackagePath": "staticwebassets\\Autotest\\495.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\496.png",
+      "PackagePath": "staticwebassets\\Autotest\\496.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\497.png",
+      "PackagePath": "staticwebassets\\Autotest\\497.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\5.png",
+      "PackagePath": "staticwebassets\\Autotest\\5.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\502.png",
+      "PackagePath": "staticwebassets\\Autotest\\502.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\503.png",
+      "PackagePath": "staticwebassets\\Autotest\\503.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\504.png",
+      "PackagePath": "staticwebassets\\Autotest\\504.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\505.png",
+      "PackagePath": "staticwebassets\\Autotest\\505.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\506.png",
+      "PackagePath": "staticwebassets\\Autotest\\506.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\507.png",
+      "PackagePath": "staticwebassets\\Autotest\\507.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\508.png",
+      "PackagePath": "staticwebassets\\Autotest\\508.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\512.png",
+      "PackagePath": "staticwebassets\\Autotest\\512.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\513.png",
+      "PackagePath": "staticwebassets\\Autotest\\513.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\514.png",
+      "PackagePath": "staticwebassets\\Autotest\\514.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\515.png",
+      "PackagePath": "staticwebassets\\Autotest\\515.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\516.png",
+      "PackagePath": "staticwebassets\\Autotest\\516.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\52.png",
+      "PackagePath": "staticwebassets\\Autotest\\52.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\522.png",
+      "PackagePath": "staticwebassets\\Autotest\\522.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\523.png",
+      "PackagePath": "staticwebassets\\Autotest\\523.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\524.png",
+      "PackagePath": "staticwebassets\\Autotest\\524.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\525.png",
+      "PackagePath": "staticwebassets\\Autotest\\525.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\526.png",
+      "PackagePath": "staticwebassets\\Autotest\\526.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\527.png",
+      "PackagePath": "staticwebassets\\Autotest\\527.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\53.png",
+      "PackagePath": "staticwebassets\\Autotest\\53.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\532.png",
+      "PackagePath": "staticwebassets\\Autotest\\532.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\533.png",
+      "PackagePath": "staticwebassets\\Autotest\\533.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\534.png",
+      "PackagePath": "staticwebassets\\Autotest\\534.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\535.png",
+      "PackagePath": "staticwebassets\\Autotest\\535.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\536.png",
+      "PackagePath": "staticwebassets\\Autotest\\536.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\537.png",
+      "PackagePath": "staticwebassets\\Autotest\\537.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\538.png",
+      "PackagePath": "staticwebassets\\Autotest\\538.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\541.png",
+      "PackagePath": "staticwebassets\\Autotest\\541.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\542.png",
+      "PackagePath": "staticwebassets\\Autotest\\542.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\543.png",
+      "PackagePath": "staticwebassets\\Autotest\\543.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\545.png",
+      "PackagePath": "staticwebassets\\Autotest\\545.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\546.png",
+      "PackagePath": "staticwebassets\\Autotest\\546.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\547.png",
+      "PackagePath": "staticwebassets\\Autotest\\547.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\548.png",
+      "PackagePath": "staticwebassets\\Autotest\\548.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\55.png",
+      "PackagePath": "staticwebassets\\Autotest\\55.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\552.png",
+      "PackagePath": "staticwebassets\\Autotest\\552.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\553.png",
+      "PackagePath": "staticwebassets\\Autotest\\553.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\554.png",
+      "PackagePath": "staticwebassets\\Autotest\\554.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\555.png",
+      "PackagePath": "staticwebassets\\Autotest\\555.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\557.png",
+      "PackagePath": "staticwebassets\\Autotest\\557.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\56.png",
+      "PackagePath": "staticwebassets\\Autotest\\56.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\560.png",
+      "PackagePath": "staticwebassets\\Autotest\\560.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\562.png",
+      "PackagePath": "staticwebassets\\Autotest\\562.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\563.png",
+      "PackagePath": "staticwebassets\\Autotest\\563.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\565.png",
+      "PackagePath": "staticwebassets\\Autotest\\565.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\566.png",
+      "PackagePath": "staticwebassets\\Autotest\\566.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\568.png",
+      "PackagePath": "staticwebassets\\Autotest\\568.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\57.png",
+      "PackagePath": "staticwebassets\\Autotest\\57.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\570.png",
+      "PackagePath": "staticwebassets\\Autotest\\570.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\572.png",
+      "PackagePath": "staticwebassets\\Autotest\\572.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\573.png",
+      "PackagePath": "staticwebassets\\Autotest\\573.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\574.png",
+      "PackagePath": "staticwebassets\\Autotest\\574.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\575.png",
+      "PackagePath": "staticwebassets\\Autotest\\575.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\576.png",
+      "PackagePath": "staticwebassets\\Autotest\\576.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\582.png",
+      "PackagePath": "staticwebassets\\Autotest\\582.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\583.png",
+      "PackagePath": "staticwebassets\\Autotest\\583.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\585.png",
+      "PackagePath": "staticwebassets\\Autotest\\585.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\59.png",
+      "PackagePath": "staticwebassets\\Autotest\\59.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\591.png",
+      "PackagePath": "staticwebassets\\Autotest\\591.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\592.png",
+      "PackagePath": "staticwebassets\\Autotest\\592.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\593.png",
+      "PackagePath": "staticwebassets\\Autotest\\593.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\594.png",
+      "PackagePath": "staticwebassets\\Autotest\\594.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\595.png",
+      "PackagePath": "staticwebassets\\Autotest\\595.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\597.png",
+      "PackagePath": "staticwebassets\\Autotest\\597.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\6.png",
+      "PackagePath": "staticwebassets\\Autotest\\6.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\602.png",
+      "PackagePath": "staticwebassets\\Autotest\\602.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\603.png",
+      "PackagePath": "staticwebassets\\Autotest\\603.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\604.png",
+      "PackagePath": "staticwebassets\\Autotest\\604.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\605.png",
+      "PackagePath": "staticwebassets\\Autotest\\605.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\607.png",
+      "PackagePath": "staticwebassets\\Autotest\\607.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\610.png",
+      "PackagePath": "staticwebassets\\Autotest\\610.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\613.png",
+      "PackagePath": "staticwebassets\\Autotest\\613.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\614.png",
+      "PackagePath": "staticwebassets\\Autotest\\614.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\615.png",
+      "PackagePath": "staticwebassets\\Autotest\\615.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\62.png",
+      "PackagePath": "staticwebassets\\Autotest\\62.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\622.png",
+      "PackagePath": "staticwebassets\\Autotest\\622.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\623.png",
+      "PackagePath": "staticwebassets\\Autotest\\623.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\624.png",
+      "PackagePath": "staticwebassets\\Autotest\\624.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\625.png",
+      "PackagePath": "staticwebassets\\Autotest\\625.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\626.png",
+      "PackagePath": "staticwebassets\\Autotest\\626.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\63.png",
+      "PackagePath": "staticwebassets\\Autotest\\63.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\631.png",
+      "PackagePath": "staticwebassets\\Autotest\\631.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\632.png",
+      "PackagePath": "staticwebassets\\Autotest\\632.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\633.png",
+      "PackagePath": "staticwebassets\\Autotest\\633.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\634.png",
+      "PackagePath": "staticwebassets\\Autotest\\634.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\635.png",
+      "PackagePath": "staticwebassets\\Autotest\\635.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\641.png",
+      "PackagePath": "staticwebassets\\Autotest\\641.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\642.png",
+      "PackagePath": "staticwebassets\\Autotest\\642.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\643.png",
+      "PackagePath": "staticwebassets\\Autotest\\643.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\644.png",
+      "PackagePath": "staticwebassets\\Autotest\\644.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\645.png",
+      "PackagePath": "staticwebassets\\Autotest\\645.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\647.png",
+      "PackagePath": "staticwebassets\\Autotest\\647.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\65.png",
+      "PackagePath": "staticwebassets\\Autotest\\65.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\652.png",
+      "PackagePath": "staticwebassets\\Autotest\\652.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\653.png",
+      "PackagePath": "staticwebassets\\Autotest\\653.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\654.png",
+      "PackagePath": "staticwebassets\\Autotest\\654.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\655.png",
+      "PackagePath": "staticwebassets\\Autotest\\655.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\656.png",
+      "PackagePath": "staticwebassets\\Autotest\\656.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\657.png",
+      "PackagePath": "staticwebassets\\Autotest\\657.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\66.png",
+      "PackagePath": "staticwebassets\\Autotest\\66.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\662.png",
+      "PackagePath": "staticwebassets\\Autotest\\662.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\663.png",
+      "PackagePath": "staticwebassets\\Autotest\\663.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\664.png",
+      "PackagePath": "staticwebassets\\Autotest\\664.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\665.png",
+      "PackagePath": "staticwebassets\\Autotest\\665.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\667.png",
+      "PackagePath": "staticwebassets\\Autotest\\667.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\67.png",
+      "PackagePath": "staticwebassets\\Autotest\\67.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\672.png",
+      "PackagePath": "staticwebassets\\Autotest\\672.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\673.png",
+      "PackagePath": "staticwebassets\\Autotest\\673.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\674.png",
+      "PackagePath": "staticwebassets\\Autotest\\674.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\675.png",
+      "PackagePath": "staticwebassets\\Autotest\\675.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\680.png",
+      "PackagePath": "staticwebassets\\Autotest\\680.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\682.png",
+      "PackagePath": "staticwebassets\\Autotest\\682.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\683.png",
+      "PackagePath": "staticwebassets\\Autotest\\683.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\684.png",
+      "PackagePath": "staticwebassets\\Autotest\\684.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\685.png",
+      "PackagePath": "staticwebassets\\Autotest\\685.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\687.png",
+      "PackagePath": "staticwebassets\\Autotest\\687.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\691.png",
+      "PackagePath": "staticwebassets\\Autotest\\691.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\692.png",
+      "PackagePath": "staticwebassets\\Autotest\\692.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\693.png",
+      "PackagePath": "staticwebassets\\Autotest\\693.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\694.png",
+      "PackagePath": "staticwebassets\\Autotest\\694.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\695.png",
+      "PackagePath": "staticwebassets\\Autotest\\695.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\696.png",
+      "PackagePath": "staticwebassets\\Autotest\\696.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\697.png",
+      "PackagePath": "staticwebassets\\Autotest\\697.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\7.png",
+      "PackagePath": "staticwebassets\\Autotest\\7.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\72.png",
+      "PackagePath": "staticwebassets\\Autotest\\72.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\73.png",
+      "PackagePath": "staticwebassets\\Autotest\\73.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\75.png",
+      "PackagePath": "staticwebassets\\Autotest\\75.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\76.png",
+      "PackagePath": "staticwebassets\\Autotest\\76.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\81.png",
+      "PackagePath": "staticwebassets\\Autotest\\81.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\82.png",
+      "PackagePath": "staticwebassets\\Autotest\\82.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\83.png",
+      "PackagePath": "staticwebassets\\Autotest\\83.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\84.png",
+      "PackagePath": "staticwebassets\\Autotest\\84.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\85.png",
+      "PackagePath": "staticwebassets\\Autotest\\85.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\86.png",
+      "PackagePath": "staticwebassets\\Autotest\\86.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\87.png",
+      "PackagePath": "staticwebassets\\Autotest\\87.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\88.png",
+      "PackagePath": "staticwebassets\\Autotest\\88.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\91.png",
+      "PackagePath": "staticwebassets\\Autotest\\91.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\92.png",
+      "PackagePath": "staticwebassets\\Autotest\\92.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\93.png",
+      "PackagePath": "staticwebassets\\Autotest\\93.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\95.png",
+      "PackagePath": "staticwebassets\\Autotest\\95.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\Autotest\\97.png",
+      "PackagePath": "staticwebassets\\Autotest\\97.png"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\kitoblar.jpg",
+      "PackagePath": "staticwebassets\\kitoblar.jpg"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\rabbit1.jpg",
+      "PackagePath": "staticwebassets\\rabbit1.jpg"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\taxi.jpg",
+      "PackagePath": "staticwebassets\\taxi.jpg"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\taxi1.jpg",
+      "PackagePath": "staticwebassets\\taxi1.jpg"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\taxi2.jpg",
+      "PackagePath": "staticwebassets\\taxi2.jpg"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\taxi3.jpg",
+      "PackagePath": "staticwebassets\\taxi3.jpg"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\tic.jpg",
+      "PackagePath": "staticwebassets\\tic.jpg"
+    },
+    {
+      "Id": "D:\\AspControler\\wwwroot\\ticket.jpg",
+      "PackagePath": "staticwebassets\\ticket.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.AspControler.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.AspControler.props",
+      "PackagePath": "build\\AspControler.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AspControler.props",
+      "PackagePath": "buildMultiTargeting\\AspControler.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.AspControler.props",
+      "PackagePath": "buildTransitive\\AspControler.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

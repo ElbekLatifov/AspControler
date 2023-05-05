@@ -1,0 +1,217 @@
+﻿@using AspControler.Services;
+@using AspControler.Models;
+@using AspControler.Repositories;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center border border-dark" style="margin-bottom: 20px; background-color: rgb(53, 219, 78); margin-top: 40px">
+    <h1 class="display-4">Welcome</h1>
+</div> 
+<br>
+
+
+<div class="col-sm-3 col-md-10 col-lg-12 d-flex justify-content-center" style="margin-left: 15%; margin-right: 15%; width: 70%; margin-bottom:40px; margin-top: 20px">
+    <div class="spinner-grow text-primary" role="status">
+    <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-secondary" role="status">
+    <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-success" role="status">
+    <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-danger" role="status">
+    <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-warning" role="status">
+    <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-info" role="status">
+    <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-light" role="status">
+    <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-dark" role="status">
+    <span class="visually-hidden">Loading...</span>
+    </div>
+</div> <br>
+
+<br>
+@{
+  if(!UserService.IsLoggedIn(Context))
+  {
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" style="display: inline; width: 19%; margin-left: 28%; margin-right: 2px">
+      Profile
+    </button>
+    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 19%; margin-right: 28%">
+      Tickets
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel" style="text-align: center">Eslatma</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Obuna bo'lishni unutmang!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+  else
+  {
+    <div style="width: 66%; display: flex; margin-left: 19%; margin-right: 15%;">
+      <form asp-controller="Users" asp-action="Profile" style="display: inline; width: 19%; margin-left: 28%; margin-right: 2px">
+        <button type="submit" class="btn btn-success" style="display: inline; width: 100%; margin-right:10px">
+          Profile
+        </button>
+      </form>
+      <form asp-controller="Tickets" asp-action="Tickets" style="width: 19%; margin-right: 28%">
+        <button type="submit" class="btn btn-warning" style="width: 100%">
+          Tickets
+        </button>
+      </form>
+    </div>
+
+    
+  }
+}
+<!-- Button trigger modal -->
+
+
+<h1 style="text-align: center; margin-top:20px; color: red">My first Website</h1> <br>
+
+<br>
+<br>
+
+<p style="text-indent: 40px; color: white;">
+    Hello and welcome to our site. You can gain a lot of knowledge through this tiny site, that is, you can improve your driving experience. Please take as many quizzes as you like and level up!
+</p>
+<p style="text-indent: 40px; color: white;">You can select the desired ticket from the menu : <a>Tickets</a></p>
+
+
+<nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+  <a class="navbar-brand" href="#">Malumotlar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0" >
+  <h4 id="scrollspyHeading1">First heading</h4>
+  <p>Кто владеет центром экзаменации водителей и причём тут Avtotest
+Компания Autodriver Study открыла в Ташкенте Единый экзаменационный̆ центр, где теперь все будущие водители столицы сдают экзамен на получение прав. Её учредитель владеет ещё двумя автошколами, одна из которых зарегистрирована по тому же адресу, что и Avtotest. Центр открылся вскоре после выступления президента о необходимости пересмотра системы подготовки водителей.
+  Ўзбек тилида   O‘zbek tilida 4 февраля 2022, 16:00   Общество  
+В Сергелийском районе Ташкента с 4 февраля начал работу Единый экзаменационный центр для сдачи экзамена на получение водительского удостоверения компании Autodriver Study. С этой же даты прекратили приём теоретического и практического экзамена все регистрационно-экзаменационные отделения УБДД ГУВД столицы.
+Без человеческого фактора
+
+Отличием новой системы сдачи теоретических и практических экзаменов на получение прав является то, что экзамены проводятся и оцениваются без участия человеческого фактора, т. е.полностью в автоматизированном режиме.
+
+Внедрение новой системы было предусмотрено постановлением президента Узбекистана от 7 декабря 2020 года (ПП-4913) «О дополнительных мерах по привлечению частного сектора в сферы, регулируемые государством». Этим документом лицензированным автошколам с 1 апреля 2021 года было предоставлено право проводить теоретические и практические экзамены на получение водительских прав (для всех категорий автомототранспорта, кроме трамвая и троллейбуса).
+
+Однако лишь спустя почти год открылся первый частный экзаменационный центр. Его открытие последовало за недавней критикой президента Узбекистана Шавката Мирзиёева в адрес автошкол страны. На одном из совещаний 26 января он заявил: «Получение водительского удостоверения без обучения превратилось в обычное дело… Что, в Узбекистане нет законов?.. В некоторых случаях даже не посещают, получают [права], заплатив деньги».</p>
+  <h4 id="scrollspyHeading2">Second heading</h4>
+  <p>Tickets bolimidan test yechishingiz mumkin     «Теперь представьте, если система экзаменации прозрачна и справедлива, если водительское удостоверение получают только граждане, которые учились и имеют достаточно навыков, а другие массово проваливают экзамены — что это нам даст? Во-первых, это создаст обратную цепную реакцию и приведёт к повышению качества образования в автошколах. Потому что сейчас автошколы в основном соревнуются только по дешевизне или дороговизне цены, и всё. Качество образования особенно не беспокоит ни большинство граждан, ни руководство автошкол. Однако теперь, когда не будет возможности сдать экзамен за счёт денег, знакомых („таниш-билиш“), они будут вынуждены учиться. Безответственные же автошколы или будут вынуждены закрыться, или, наконец, начнут давать качественное образование», — заявил Бекмурод Абдуллаев.
+
+«Выдача прав только тем, кто имеет достаточно знаний и навыков, сама по себе приведёт к тому, что количество дорожно-транспортных происшествий в нашей стране начнёт снижаться», — отметил он.
+
+«Сейчас во многих наших автошколах качество обучения низкое. Кроме того, к огромному сожалению, в сознании людей укрепилось то, что получить водительские права можно без учёбы, и сразу изменить мышление людей непросто. Не секрет, что многие вместо того, чтобы учиться, ищут знакомых. Естественно, с началом работы таких экзаменационных центров в социальных сетях станет больше возмущений тех, кто не прошёл экзамен. Кроме того, внедрение системы, свободной от человеческого фактора, кому-то не понравится, особенно тем, кто заинтересован в старой системе. Но мы к этому морально готовы», — заявил Бекмурод Абдуллаев.</p>
+  <h4 id="scrollspyHeading3">Third heading</h4>
+  <p>Agar xoxlasangiz profil malumotlaringizni almashtiring Единый экзаменационный центр (Toshkent Imtihon Markazi, TIM) стал первой компанией, получившей право оказания государственной услуги по проведению теоретических и практических экзаменов на получение водительского удостоверения. Директором компании на её сайте указан Дэниел Бёрк.
+
+3 февраля в разделе «О нас» сайта сообщалось, что лицензия №AVHT 1895 была получена 2 февраля 2022 года. Сейчас эта информация отсутствует.
+
+Согласно открытым данным ЕГРПО, Autodriver Study была зарегистрирована 6 октября 2017 года. Руководителем указан Дэниел Бёрк (Burke Daniyel James), единственным учредителем — Дилшод Шухратович Джураев.
+
+Журналист Мухрим Агзамходжаев обратил внимание на то, что, по данным Web.Archive, Autodriver Study имела два филиала — один на месте текущего центра, другой — на улице Алишера Навои, 1, где размещался филиал инновационной автошколы Avtotest.</p>
+  <h4 id="scrollspyHeading4">Kommentariya</h4>
+  <p>Fikringizni commentariyaga qoldiring, lekin hozircha commentary yoq </p>
+  <h4 id="scrollspyHeading5">Foydali linklar</h4>
+  <p>Bori shu <a href="https://t.me/auto_inspektor">Inspektor</a> va <a href="https://t.me/auto_instruktor">Avtoinpektor</a></p>
+</div>
+
+<h1 style="margin-top: 50px; color: rgb(33, 240, 33);">Users</h1>
+    @{
+      
+      if(UserService._userRepository.GetUsers() != null)
+      {
+        <div style="overflow-y: scroll; height: 300px">
+          @{
+              foreach (var item in UserService._userRepository.GetUsers()!)
+              {
+                <div class="alert alert-primary" role="alert" style="padding: 0; height: 65px; display: flex; align-items: center;">
+                  <img src="@item.UserPhoto" style="width: 5%; border-radius: 15px; height: 45px; margin: 0; margin-right: 10px; margin-left: 5px">
+                    @item.UserName
+                </div>
+              }
+          }
+        </div>  
+      }
+      
+    }
+
+
+<ol class="list-group list-group-numbered" style="margin-top: 20px;">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Users count</div>
+      onlain
+    </div>
+    @{
+      var users = UserService._userRepository.GetUsers();
+    }
+    <span class="badge bg-primary rounded-pill">@(users!.Count)</span>
+  </li>
+</ol>
+
+
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" style="width: 50%; margin-left:25%; margin-bottom: 30px; margin-top: 20px; margin-right: 25%;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/taxi1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/taxi2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/taxi.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+

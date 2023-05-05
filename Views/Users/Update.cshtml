@@ -1,0 +1,17 @@
+<h1 style="text-align: center; color: white;">Update Infos</h1>
+
+<div style="width: 40%; margin-left: 30%; margin-right: 30%;">
+
+    <form class="row g-3" id="index" style="text-align: center;" asp-controller="Users" asp-action="UpdatePost" enctype="multipart/form-data">
+        <input name ="UserName" placeholder="First Name" type="text" class="form-control">
+        <input name ="Password" placeholder="Password" type="password" class="form-control">
+        <input name ="Email" placeholder="Email" type="email" class="form-control">
+        <input name ="Phone" placeholder="Phone Number" type="text" class="form-control">
+        <div>
+            <label style="color: white;">Profil rasmini tanlang:</label>
+            <input name ="UserPhotos" type="file" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary mb-3">Update</button>
+    </form>
+
+</div>

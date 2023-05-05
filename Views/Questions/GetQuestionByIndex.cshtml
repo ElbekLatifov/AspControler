@@ -1,0 +1,135 @@
+@using AspControler.Services
+@model User
+@{
+    var userid = Context.Request.Cookies["UserId"];
+    var index = ViewBag.Ticketnumber;
+    //var j = ViewBag.Javob;
+    var info = UserService._ticketRepository.GetTicketsInfos(userid);
+    var inf = info.FindAll(u=>u.TicketIndex == index);
+    if(ViewBag.IsSuccess)
+    {
+        QuestionModel question = ViewBag.Question;
+        var sh = inf.FirstOrDefault(u=>u.QuestionIndex ==question.Id);
+        <div style="width: 40%; display: flex; margin: 0 30%">
+            @{
+                var s = "btn btn-secondary";
+                for (int i = index*10+1; i <= index*10+10; i++)
+                {
+                    if(inf.Any(u=>u.QuestionIndex == i))
+                    {   
+                        var any = inf.FirstOrDefault(u=>u.QuestionIndex == i);
+                        if(any.IsAnswer)
+                        {
+                            if(any.IsCorrect)
+                            {
+                               s = "btn btn-success";
+                            }
+                            else
+                               s = "btn btn-danger";
+                        }
+                        else
+                        {
+                            s = "btn btn-secondary";
+                        }   
+                    }
+                    else
+                    {
+                        s = "btn btn-secondary";
+                    }
+                    if(question.Id == i)
+                    {
+                        s = "btn btn-warning";
+                    }
+                    <div class="@s" style="border: 1px outset black; margin-bottom: 20px; ">
+                    
+                        <a type="button" asp-controller="Questions" asp-action="GetQuestionByIndex" asp-route-id="@i" asp-route-ticketIndex="@(index)" 
+                        style="color: rgb(7, 7, 7); text-decoration : none; color: yellow">@i</a>
+                    
+                    </div>
+                }
+            }
+        </div>
+        
+        <h3 style="text-align: center; color: white;">@question.Id. @question.Question</h3>
+
+        if(question.Media!.Exist)
+        {
+            var imagelink = $"/Autotest/{question.Media!.Name}.png";
+            <div class="col-md-6" style="margin: 0 auto; margin-bottom: 10px; margin-top: 10px">
+                <img src=@imagelink style="width: 600px; height: 300px; text-align: center; margin-left: 0">
+            </div>
+        }
+
+
+        for (int i = 0; i < question.Choices!.Count; i++)
+        {
+            var bg = "";  
+            if(inf.Any(u=>u.QuestionIndex == question.Id))
+            {
+                var nima = inf.First(u=>u.QuestionIndex == question.Id);
+                if(nima.IsAnswer)
+                {
+                    if(nima.ChoisedIndex == i && !nima.IsCorrect)
+                    {
+                        bg = "background-color: red";
+                    }
+                    else if(question.Choices[i].Answer)
+                    {
+                        bg = "background-color: chartreuse";
+                    }
+                }
+                <h5 class="btn btn-info" style="@bg; width: 100%;">@(i+1). @question.Choices[i].Text</h5>
+            }
+            else  
+                if(ViewBag.IsAnswer)
+                {
+                    if(ViewBag.ChoiseIndex == i && !question.Choices[i].Answer)
+                    {
+                        bg = "background-color: red";
+                    }
+                    else if(question.Choices[i].Answer)
+                    {
+                        bg = "background-color: chartreuse";
+                    }
+                    <h5 class="btn btn-info" style="@bg; width: 100%;">@(i+1). @question.Choices[i].Text</h5>
+                }
+                else
+                {
+                    <a asp-controller="Questions" asp-action="GetQuestionByIndex" 
+                    asp-route-id="@question.Id" asp-route-choiseIndex="@i" asp-route-ticketIndex="@ViewBag.Ticketnumber">
+                    <h5 class="btn btn-info" style="width: 100%;">@(i+1). @question.Choices[i].Text</h5>
+                    </a>
+                } 
+        }
+        <br>
+        if(sh != null)
+        {
+        if(ViewBag.IsAnswer || sh.IsAnswer)
+        {
+            var indexx = Convert.ToInt32(Context.Request.Cookies["Counter"]);
+
+            <div style="display:flex; justify-content: space-between;">
+                @{ string a = "<"; string b = ">";
+                    if(indexx == 9)
+                    {
+                        <a asp-controller="Questions" asp-action="GetQuestionByIndex" asp-route-Id="@@(question.Id)" asp-route-ticketIndex="@(ViewBag.Ticketnumber)" style="text-decoration: none;"><h1>Finish</h1></a>
+                    }else
+                    {
+                        if(!(question.Id == index*10+1))
+                        {
+                            <a asp-controller="Questions" asp-action="GetQuestionByIndex" asp-route-Id="@(question.Id-1)" asp-route-ticketIndex="@ViewBag.Ticketnumber" style="text-decoration: none;"><h1> @a Back</h1></a>
+                        }
+                        if(!(question.Id == index*10+10))
+                        {
+                            <a asp-controller="Questions" asp-action="GetQuestionByIndex" asp-route-Id="@(question.Id+1)" asp-route-ticketIndex="@ViewBag.Ticketnumber" style="text-decoration: none;"><h1>Next @b </h1></a>
+                        }
+                    }   
+                }
+            </div>
+        }}
+    }
+    else
+    {
+        <h1>@ViewBag.QuestionId Not found</h1>
+    }
+}
